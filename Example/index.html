@@ -1,20 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel ="stylesheet" type="text/css" href="self.css">
+    <link rel="stylesheet" type="text/css" href="self.css">
     <title>Example</title>
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">NAV_1<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NAV_2</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown_1
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Menu_1</a>
+                        <a class="dropdown-item" href="#">Menu_2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">dropdown-divider</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
     <div class="container">
         <div class="jumbotron">
             <h1 class="text-center">Introduce Example Page</h1>
             <h3 class="text-center">This is Example Page for bootstrap. A lot of example page is in here!</h3>
-            <h3 class="text-center"><a class="btn btn-primary btn-lg" href = "#" role = "button">Go to See Other Page</a></h3>
+            <h3 class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Go to See Other Page</a>
+            </h3>
         </div>
-        
     </div>
+    <footer style="background-color : #000000; color : white">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-sm-2" style="text-align : center;">
+                    <h5>Copyright &copy; 2019</h5>
+                    <h5>KMS</h5>
+                </div>
+                <div class="col-sm-4">
+                    <h4>Introduce Boss</h4>
+                    <p>I am a boss for the this Page. <span><br></span>I am watch on Youtube how to make webPage with
+                        Bootstrap</p>
+                </div>
+                <div class="col-sm-2">
+                    <h4 style="text-align: center;">Navigator</h4>
+                    <ul class="list-group" style="color: #000000">
+                        <li class="list-group-item"><a href="#">NAV_1</a></li>
+                        <li class="list-group-item"><a href="#">NAV_2</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h4 style="text-align: center;">SNS</h4>
+                    <ul class="list-group" style="color: #000000">
+                        <li class="list-group-item"><a href="#">SNS_1</a></li>
+                        <li class="list-group-item"><a href="#">SNS_2</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h4 style="text-align: center;"><span class="gluphicon glyphicon-ok"></span>by KMS</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
