@@ -9,7 +9,11 @@
   <link rel="stylesheet" type="text/css" href="self.css">
   <title>Example</title>
 </head>
-
+<style>
+a:link { color: white; text-decoration: none;}
+a:visited { color: white; text-decoration: none;}
+a:hover { color: white; text-decoration: underline;}
+</style>
 
 <body style="background: #34495e;">
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -48,9 +52,10 @@
   </nav>
   <div class="container">
     <div class="jumbotron">
-      <h1 class="text-center">Introduce Example Page</h1>
-      <h3 class="text-center">This is Example Page for bootstrap. A lot of example page is in here!</h3>
-      <h3 class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Go to See Other Page</a>
+      <h1 class="text-center">이것은 예시 페이지 입니다.</h1>
+      <h3 class="text-center">이곳은 부트스트랩을 이용해서 만든 뉴스를 보여주는 예시 페이지 입니다.</h3>
+      <br>
+      <h3 class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">개발자에게 후원하기</a>
       </h3>
     </div>
   </div>
@@ -58,53 +63,62 @@
     <div class="card text-white bg-dark">
 
       <div class="card-body">
-        <h5 class="card-title"><a href="#">Card title that wraps to a new line</a></h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-          content. This content is a little bit longer.</p>
+      	<img src="image/NATO.jpg">
+      	<br>
+      	<br>
+        <h5 class="card-title"><a href="#">나토, 러의 새 미사일 대응하기 위한 정치·군사적 조치 합의</a></h5>
+        <p class="card-text">이곳은 어떠한 카드 뉴스에 대한 설명이 적혀 있습니다. 제목을 누르게 되면 링크를 따라 이동하게 됩니다.</p>
+        <p class="card-text"><small class="text-muted">이곳은 얼마전에 업데이트가 되었는지 뜨게 됩니다.</small></p>
       </div>
     </div>
     <div class="card text-white bg-dark">
       <blockquote class="blockquote mb-0 card-body">
-        <p><a href="#">Card title that wraps to a new line</a></p>
+        <p><a href="#">부산 해운대 중앙버스전용차로서 지반침하</a></p>
         <footer class="blockquote-footer">
           <small class="text-muted">
-            Someone famous in <cite title="Source Title">Source Title</cite>
+           	 이곳은 얼마전에 업데이트가 되었는지 뜨게 됩니다.
           </small>
         </footer>
       </blockquote>
     </div>
     <div class="card text-white bg-dark">
       <div class="card-body">
-        <h5 class="card-title"><a href="#">Card title that wraps to a new line</a></h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <img src="image/TRUMP.jpg" width="100%">
+      	<br>
+      	<br>
+        <h5 class="card-title"><a href="#">트럼프 "이번엔 김정은 안 만나…다른 방식으로 얘기할 수도"</a></h5>
+        <p class="card-text">이곳은 어떠한 카드 뉴스에 대한 설명이 적혀 있습니다. 제목을 누르게 되면 링크를 따라 이동하게 됩니다.</p>
+        <p class="card-text"><small class="text-muted">이곳은 얼마전에 업데이트가 되었는지 뜨게 됩니다.</small></p>
       </div>
     </div>
     <div class="card bg-dark text-white text-center p-3">
       <blockquote class="blockquote mb-0">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+        <p>쪼오금 멋진 명언이 적혀 있음</p>
         <footer class="blockquote-footer text-white">
-          <small>
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </small>
+          <small>뭔가 좀 유명한 사람이 말한거 처럼 </small>
         </footer>
       </blockquote>
     </div>
-    <div class="card bg-dark text-white text-center">
+    <div class="card bg-dark text-white ">
       <div class="card-body">
-        <h5 class="card-title"><a href="#">Card title that wraps to a new line</a></h5>
-        <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <img src="image/BADA.jpg" width="100%">
+      	<br>
+      	<br>
+        <h5 class="card-title"><a href="#">[천혜 하늘·바닷길 품은 인천] 7천만명 오가는 인천공항…물동량 고공행진 인천항</a></h5>
+        <p class="card-text">이곳은 어떠한 카드 뉴스에 대한 설명이 적혀 있습니다. 제목을 누르게 되면 링크를 따라 이동하게 됩니다.</p>
+        <p class="card-text"><small class="text-muted">이곳은 얼마전에 업데이트가 되었는지 뜨게 됩니다.</small></p>
       </div>
     </div>
 
 
     <div class="card text-white bg-dark">
       <div class="card-body">
-        <h5 class="card-title"><a href="#">Card title that wraps to a new line</a></h5>
-        <p class="card-text">This is another card with title and supporting text below. This card has some additional
-          content to make it slightly taller overall.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <img src="image/NEWS.jpg">
+      	<br>
+      	<br>
+        <h5 class="card-title"><a href="#">다시 들어선 ‘불법 천막’… 광화문광장 정치선전장 변질되나</a></h5>
+        <p class="card-text">이곳은 어떠한 카드 뉴스에 대한 설명이 적혀 있습니다. 제목을 누르게 되면 링크를 따라 이동하게 됩니다.</p>
+        <p class="card-text"><small class="text-muted">이곳은 얼마전에 업데이트가 되었는지 뜨게 됩니다.</small></p>
       </div>
     </div>
   </div>
@@ -123,9 +137,9 @@
         </div>
         <div class="col-sm-2">
           <h4 style="text-align: center;">Navigator</h4>
-          <ul class="list-group" style="color: #000000">
-            <li class="list-group-item list-group-item list-group-item-dark"><a href="#">NAV_1</a></li>
-            <li class="list-group-item list-group-item list-group-item-dark"><a href="#">NAV_2</a></li>
+          <ul class="list-group" >
+            <li class="list-group-item list-group-item list-group-item-dark"><a href="#" style="color: black">NAV_1</a></li>
+            <li class="list-group-item list-group-item list-group-item-dark"><a href="#" style="color: black">NAV_2</a></li>
           </ul>
         </div>
         <div class="col-sm-2">
